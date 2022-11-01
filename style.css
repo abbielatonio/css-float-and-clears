@@ -1,0 +1,104 @@
+* {
+  font-family: verdana, sans-serif;
+  background-color: #F3F4F4;
+}
+
+.header {
+  background-color: #5CA9E3;
+  padding: 10px;
+  height: auto;
+  width: 100%;
+  position: fixed;
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 3;
+}
+
+.brand {
+  width: 20px;
+  height: 20px;
+  mix-blend-mode: multiply;
+}
+
+#centermain {
+  position: relative;
+  margin: auto;
+  width: 60%;
+  top: 100px;
+}
+
+h2 {
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+.sections {
+  background-color: #fff;
+  padding: 20px;
+  float: left;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.container {
+  background-color: #F3F4F4;
+  border-radius: 5px;
+  margin: 10px;
+  width: 47%;
+  float: left;
+}
+
+.imageset1 {
+  float: left;
+  width: 20%;
+  margin: 20px;
+}
+
+.imageset2 {
+  float: left;
+  width: 20%;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+h3 {
+  margin: 10px;
+  color: #5CA9E3;
+}
+
+.text {
+  height: 12em;
+  float: left;
+  width: 65%;
+  font-size: 12px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.footer {
+  background-color: #5CA9E3;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  padding: 10px;
+  height: 20px;
+  text-transform: uppercase;
+  z-index: 3;
+  font-size: 9px;
+  text-align: center;
+  color: #ffffff;
+}
+
+a:link, a:visited {
+  background-color: #5CA9E3;
+  color: #ffffff
+}
+
+.role {
+  font-size: 9px;
+  text-decoration: italic;
+}
